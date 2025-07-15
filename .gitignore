@@ -1,0 +1,55 @@
+# ===================
+# Maven build folders
+# ===================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===================
+# IntelliJ IDEA
+# ===================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===================
+# Eclipse / STS (Spring Tool Suite)
+# ===================
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath/
+.springBeans/
+.sts4-cache/
+
+# ===================
+# NetBeans
+# ===================
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===================
+# Visual Studio Code
+# ===================
+.vscode/
+
+# ===================
+# Build folders (gradle or others)
+# ===================
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===================
+# Misc
+# ===================
+HELP.md
+*.log
+.DS_Store
+Thumbs.db
