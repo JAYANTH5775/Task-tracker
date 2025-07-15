@@ -1,7 +1,6 @@
 services:
   - type: web
     name: task-tracker-backend
-    runtime: java
     repo: https://github.com/JAYANTH5775/Task-tracker
     branch: main
     buildCommand: ./mvnw clean install
