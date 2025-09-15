@@ -15,6 +15,9 @@ public class Task {
     private boolean completed;
     private LocalDateTime dueDate;
 
+    @Version
+    private Integer version;
+
     // Getters
     public Long getId() {
         return id;
